@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 892px;
+    height: 1386px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header  {
+    border-bottom: 2px solid #938e8c;
+    width: 892px;
+    height: 61px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.block {
+    color: white;
+    font:bold 12px "Heiti SC";
+    width: 110px;
+    height: 61px;
+    background-color: #d45d5c;
+    display: table-cell;
+    vertical-align: bottom;
+    padding-left:10px;
+}
+
+.date {
+    font:bold 12px "Heiti SC";
+    color: #d45d5c;
+    /*float: right;*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.top {
+    height: 301px;
+    margin-top: 20px;
+}
+
+.shadeImg{
+    width: 641px;
+    height: 301px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.img01 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.title {
+    width: 203px;
+    height: 301px;
+    margin: 0 24px;
+    position: relative;
+}
+
+
+.shade {
+    width: 191px;
+    height: 301px;
+
+}
+
+.greenShade {
+    float: left;
+    z-index: 2;
+    position: absolute;
+
+}
+
+.redShade {
+    float: right;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+}
+
+.font1 {
+    font: normal 24px "Microsoft YaHei" ;
+    line-height: 40px;
+    text-decoration: underline;
+    text-decoration-color: #676767;
+    color:#000
+}
+
+.font2 {
+    font: italic normal 12px 楷体 ;
+    line-height: 10px;
+    color:#676767
+}
+
+.font3 {
+    font: italic 116px "Microsoft YaHei" ;
+    color: #75b86d;
+    margin-left: -12px;
+}
+
+.purple {
+    font: normal 12px "Microsoft YaHei"  ;
+    color: #cc8091;
+}
+
+.divide span{
+    display: block;
+}
+
+.purple-hr {
+    width: 203px;
+    height: 2px;
+    background: #cc8091;
+    border: 0;
+}
+
+.text-bottom {
+    position: absolute;
+    bottom: -16px;
+}
+
+.bottom {
+    display: flex;
+    width: 641px;
+}
+
+
+.article {
+    margin-top: 20px;
+    margin-right: 5px;
+    font: normal 12px "Songti TC";
+
+}
+
+.article p {
+    line-height: 16px;
+}
+
+.bottom h2{
+    font:bold 16px "Microsoft YaHei" ;
+    color: #418c59;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+#article2 {
+   display: flex;
+   margin-top: 20px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.yellowFont {
+    font:italic bold 72px "Heiti SC" ;
+    color: #f5e327;
+}
+
+.blueFont {
+    font: bold 42px "Heiti TC";
+    color: #11456b;
+    margin-left: 16px;
+}
+
+.blue-hr{
+    width: 415px;
+    height: 2px;
+    background: #11456b;
+    border: 0;
+}
+
+
+.article2Content  p{
+    margin-top: 10px;
+    font: normal 12px "Songti TC";
+    color: #767777;
+    /*line-height: 16px;*/
+}
+
+.article2Content p:first-letter {
+    font: normal 70px "Microsoft YaHei";
+    color: #f5e327;
+    float: left;
+}
+
+
+.article2Content img {
+    float: right;
+    padding: 10px;
+}
+
+
+.right {
+    padding: 10px;
+}
+
+.fontImg {
+    width: 458px;
+    height: 275px;
+    margin:  0 auto;
+    position: relative;
+}
+
+.fontImgBottom {
+    position: absolute;
+    background:rgba(47,47,47,0.5);
+    height: 46px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.rightImgBlock {
+    width: 100%;
+    height: 100%;
+}
+
+
+.qiandaun {
+    font: normal 26px "Microsoft YaHei";
+    color: white;
+    margin-left: 40px;
+}
+
+.qiandaun::before{
+    content: "| ";
+    width: 3px;
+    height: 44px;
+    font-size: 28px;
+    color: #72b16a;
+}
+
+#rightBottom {
+    width: 459px;
+    height: 318px;
+    margin: 20px auto 0px;
+    background: rgb(238,237,214);
+}
+
+#rightBottom ul {
+    list-style-image : url('../image/task6/icon.png');
+    /*list-style-type:square;*/
+    margin: 40px;
+}
+
+#rightBottom p {
+    font: normal 16px "Songti TC";
+    line-height: 40px;
+}
+
+#oneTwo {
+    width: 260px;
+    height: 160px;
+    background:  #d45d5c;
+}
+
+#hello {
+    width: 199px;
+    height: 160px;
+    float: right;
+}
+
+
+#hello p {
+    font: italic normal 14px "黑体" ;
+    color:#5a5b5b;
+    /*line-height: 16px;*/
+    /*height: 160px;*/
+    margin: 8px;
+    text-wrap: normal;
+}
+
+.before{
+    font: normal 72px 黑体;
+    color: #d45d5c;
+    /*content: "\ “";*/
+    float: left;
+
+}
+
+.after{
+    font: normal 72px 黑体;
+    color: #d45d5c;
+    /*content: "\ ”";*/
+    float: right;
+}
+
+
+#zero {
+    color: white;
+    font-family: "Microsoft YaHei";
+    font-size: 110px;
+}
+
+#divide {
+    width: 2px;
+    height: 86px;
+    background: white;
+    margin: auto 5px;
+}
+
+
+#zeroR {
+    width:160px;
+    float: right;
+}
+
+.white {
+    font: italic normal 21px "Heiti TC";
+    line-height: 24px;
+    color: white;
+}
+
+.little-white{
+    font: italic normal 12px "Heiti TC";
+    line-height: 6px;
+    color: white;
+}
+
+#footer {
+    margin: 10px auto;
+    width: 892px;
+    height: 13px;
+    border-top: 1px solid #938e8c;
+    color:#d45d5c;
+    text-align: right;
+    font:normal 12px "Heiti TC";
+    padding: 5px;
+}

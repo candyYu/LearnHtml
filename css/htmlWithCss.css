@@ -1,0 +1,165 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    height: 120px;
+}
+
+.content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.articles {
+    margin: 0 10px;
+    overflow: auto;
+    display: inline-block;
+    /*border: red solid 1px;*/
+    flex: 2;
+}
+
+.aside{
+
+    background-color: white;
+    width: 520px;
+    height: 800px;
+    display: inline-block;
+    /*border: blue solid 1px;*/
+}
+
+.foot{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+
+.head h1 {
+    color: white;
+}
+
+
+.head a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.head img {
+    width: 100px;
+    height: 50px;
+    margin: auto 0;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.floatRight{
+    float: right;
+    position: relative;
+    margin-right: 0px;
+}
+
+h2,h3{
+    color: #666666;
+}
+
+.head ul{
+    list-style-type: circle;
+}
+
+.article{
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.article ul {
+    list-style: none;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color:rgba(1,33,33,1);
+    color: white;
+}
+
+#sum {
+    background-color: silver;
+}
+
+.imgs {
+    display: inline-block;
+    padding: 10px;
+}
+
+.imgBlock{
+    border: gainsboro solid 1px;
+    width: 200px;
+    margin: 0 10px 10px;
+    float: left;
+}
+
+.clearfix {
+    clear:left;
+}
+
+.imgBlock p {
+    text-align: center;
+}
+
+
+.aside h1:before{
+    content: "| ";
+    color: silver;
+}
+
+.form-group{
+    text-align: center;
+    margin: 20px;
+}
+
+.form-group .p {
+    color: silver;
+}
+
+form {
+    line-height: 200%;
+    height: 500px;
+    position: relative;
+}
+
+.formLeft {
+    position: absolute;
+    right: 65%;
+}
+.formRight {
+    position: absolute;
+    left: 35%;
+}
+
+
+.foot p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn {
+    color: white;
+    background: #3355D0;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+}
